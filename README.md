@@ -9,44 +9,42 @@ task definition
 We introduce a dataset of 2,000 news articles for detecting news stance.
 All the data is contained within the file data/k-news-stance.json. The data is structured as following:
 ```python
-dataset = [
-    {
-        "issue": "노란봉투법 국회 상임위 통과",
-        "id": 728,
-        "headline": "...",
-        "press": "...",
-        "date": "...",
-        "url": "...",
-        "lead": "...",
-        "article": "...",
-        "conclusion": "...",
+{
+    "issue": "노란봉투법 국회 상임위 통과",
+    "id": 728,
+    "headline": "...",
+    "press": "...",
+    "date": "...",
+    "url": "...",
+    "lead": "...",
+    "article": "...",
+    "conclusion": "...",
 
-        "genre": "...",
-        "headline_stance": "중립적",
-        "lead_stance": "중립적",
-        "conclusion_stance": "지지적",
-        "overall_stance": "중립적",
-        "quotations": [
-            {
-                "quote": "...",
-                "quote_stance": ["중립적"]
-            },
-            {
-                "quote": "...",
-                "quote_stance": ["비판적"]
-            },
-            {
-                "quote": "...",
-                "quote_stance": ["지지적"]
-            }
-        ],
+    "genre": "...",
+    "headline_stance": "중립적",
+    "lead_stance": "중립적",
+    "conclusion_stance": "지지적",
+    "overall_stance": "중립적",
+    "quotations": [
+        {
+            "quote": "...",
+            "quote_stance": ["중립적"]
+        },
+        {
+            "quote": "...",
+            "quote_stance": ["비판적"]
+        },
+        {
+            "quote": "...",
+            "quote_stance": ["지지적"]
+        }
+    ],
 
-        "split_99": "test",
-    },
-    {
-        ...
-    }
-]
+    "split_99": "test",
+},
+{
+    ...
+}
 
 ```
 
