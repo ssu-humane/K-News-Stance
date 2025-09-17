@@ -8,7 +8,7 @@ task definition
 ## Dataset: K-News-Stance
 We introduce a dataset of 2,000 news articles for detecting news stance.
 All the data is contained within the file data/k-news-stance.json. The data is structured as following:
-```python
+```json
 {
     "issue": "노란봉투법 국회 상임위 통과",
     "id": 728,
