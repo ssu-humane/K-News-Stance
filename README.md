@@ -14,12 +14,6 @@ We address the task of **stance detection in news articles**, which involves ide
 
 - **Objective**  
   Given *(A, T)*, predict the overall stance *L* of article *A* toward issue *T*.  
-
-- **Model**  
-  A stance detection model *f(·)* takes *(A, T)* as input and outputs *L*.  
-
-- **Evaluation**  
-  Performance is measured using standard classification metrics (e.g., accuracy, F1-score).
   
 ## Dataset: K-News-Stance
 We introduce a dataset of 2,000 news articles for detecting news stance.
