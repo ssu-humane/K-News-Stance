@@ -24,7 +24,7 @@ All the data is contained within the file data/k-news-stance.json. The data is s
     "headline_stance": "중립적",
     "lead_stance": "중립적",
     "conclusion_stance": "지지적",
-    "overall_stance": "중립적",
+    "article_stance": "중립적",
     "quotations": [
         {
             "quote": "...",
