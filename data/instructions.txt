@@ -1,0 +1,2 @@
+Downlaod the data from {url} and place
+the `k-news-stance.json` file into this directory.
