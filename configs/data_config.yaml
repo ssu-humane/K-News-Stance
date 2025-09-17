@@ -1,0 +1,28 @@
+data:
+  test_data_path: "../../data/the_final_dataset.json"
+  
+  # Field mappings for different methods
+  fields:
+    baseline:
+      event_name: "event_name"
+      title: "title"
+      news_content: "main_body"
+      ground_truth: "입장_전체"
+    joa_icl_roberta:
+      event_name: "event_name"
+      title: "title_with_mlm_label"
+      news_content: "main_body_with_mlm_intro_con_quote_label"
+      ground_truth: "입장_전체"
+    joa_icl_oracle:
+      event_name: "event_name"
+      title: "title_with_label"
+      news_content: "main_body_with_intro_con_quote_label"
+      ground_truth: "입장_전체"
+
+prompts:
+  prompt_dir: "../../prompt/joa-icl"
+  prompt_type: "zero-shot"  # zero-shot, zero-shot_cot, 6-shot, 6-shot_cot
+  system_prompt: "instruction_baseline"  # instruction_baseline or instruction_joa_icl
+
+output:
+  results_dir: "../../results"
