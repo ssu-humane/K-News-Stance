@@ -1,6 +1,0 @@
-model:
-  name: "gpt-4o-mini"
-  
-generation:
-  temperature: 1.0
-  max_tokens: 100
