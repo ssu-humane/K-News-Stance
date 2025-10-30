@@ -20,16 +20,48 @@ We introduce a dataset of 2,000 news articles for detecting news stance.
 All the data is contained within the file data/k-news-stance.json. The data is structured as following:
 ```json
 {
- to be appeared...
-},
-{
-    ...
+    "id": "...",
+    "issue": "헌재 '검수완박' 절차는 위헌, 법안은 유효",
+    "genre": "analysis",
+    "news_outlet": "...",
+    "link": "...",
+    "publish_date": "...",
+    "headline": "...",
+    "headline_stance": "neutral",
+    "lead": "...",
+    "lead_stance": "neutral",
+    "quotations": [
+        {
+            "quotation": "...",
+            "quotation_stance": ["neutral"]
+        },
+        {
+            "quotation": "...",
+            "quotation_stance": ["neutral"]
+        },
+        {
+            "quotation": "...",
+            "quotation_stance": ["oppositional"]
+        },
+        {
+            "quotation": "...",
+            "quotation_stance": ["supportive"]
+        }
+    ],
+    "conclusion": "...",
+    "conclusion_stance": "supportive",
+    "article": "...",
+    "article_stance": "neutral"
 }
-
 ```
 
 ## Method: JoA-ICL
 Journalism-guided Agentic In-Context Learning framework
+
+## How to Run
+```python3
+python joa-icl.py
+```
 
 ## Reference
 For more details and background about the task and method, please check [our paper](https://arxiv.org/pdf/2507.11049).
