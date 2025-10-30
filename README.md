@@ -56,6 +56,7 @@ All the data is contained within the file data/k-news-stance.json. The data is s
 ```
 
 ## Method: JoA-ICL
+<p align="center"><img src="https://github.com/ssu-humane/K-News-Stance/blob/main/joa-icl.jpg" width="900" height="400"></p>
 Journalism-guided Agentic In-Context Learning framework
 
 ## How to Run
