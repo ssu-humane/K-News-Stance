@@ -58,9 +58,11 @@ All the data is contained within the file data/k-news-stance.json. The data is s
 }
 ```
 
-## Method: JoA-ICL
+## Method: JoA-ICL(Journalism-guided Agentic In-Context Learning framework)
 <p align="center"><img src="https://github.com/ssu-humane/K-News-Stance/blob/main/joa-icl.jpg" width="900" height="400"></p>
-Journalism-guided Agentic In-Context Learning framework
+
+As illustrated in Figure, this LLM-based method performs article-level stance prediction via in-context learning while delegating stance classification of journalism-guided segments—such as leads and quotations—to a language model(LM) agent. 
+The resulting segment-level predictions are then integrated with the primary LLM, enabling more accurate inference of an article’s overall stance toward a target issue.
 
 ## How to Run
 ```python3
