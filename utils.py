@@ -74,7 +74,7 @@ def add_xml_tags(article: str, headline_stance: str, lead_stance: str,
             if quote_text in tagged_article:
                 tagged_article = tagged_article.replace(
                     quote_text,
-                    f'<직접 인용구 입장="{korean_stance}">{quote_text}</직접 인용구>',
+                    f'<직접 인용문 입장="{korean_stance}">{quote_text}</직접 인용문>',
                     1
                 )
     
