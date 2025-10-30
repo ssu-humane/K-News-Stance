@@ -8,7 +8,7 @@ from utils import add_xml_tags, load_test_data, save_results
 # Configure Gemini API
 genai.configure(api_key="YOUR_GEMINI_API_KEY_HERE")
 
-class StanceDetector:
+class JoaICL:
     def __init__(self):
         # Label mappings
         self.LABEL_ID2NAME = {
@@ -147,7 +147,7 @@ class StanceDetector:
         save_results(segment_results, article_results)
 
 def main():
-    detector = StanceDetector()
+    predict = JoaICL()
     detector.process_dataset()
 
 if __name__ == "__main__":
