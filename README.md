@@ -21,7 +21,7 @@ All the data is contained within the file data/k-news-stance.json. The data is s
 ```json
 {
     "id": "...",
-    "issue": "헌재 '검수완박' 절차는 위헌, 법안은 유효",
+    "issue": "'개 식용 금지법' 국회 본회의 통과",
     "genre": "analysis",
     "news_outlet": "...",
     "link": "...",
