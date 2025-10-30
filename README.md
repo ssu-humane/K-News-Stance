@@ -16,6 +16,7 @@ We address the task of **stance detection in news articles**, which involves ide
   Given *(A, T)*, predict the overall stance *L* of article *A* toward issue *T*.  
   
 ## Dataset: K-News-Stance
+<p align="center"><img src="https://github.com/ssu-humane/K-News-Stance/blob/main/k-news-stance.jpg" width="900" height="400"></p>
 We introduce a dataset of 2,000 news articles for detecting news stance.
 All the data is contained within the file data/k-news-stance.json. The data is structured as following:
 ```json
