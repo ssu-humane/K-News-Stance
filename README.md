@@ -20,6 +20,7 @@ We address the task of **stance detection in news articles**, which involves ide
 ---
 
 ## 📂 Dataset: K-News-Stance
+<p align="center"><img src="https://github.com/ssu-humane/K-News-Stance/blob/main/k-news-stance.jpg" width="900" height="400"></p>
 
 **K-News-Stance** contains **2,000 Korean news articles** annotated with:
 - Article-level stance  
@@ -88,10 +89,9 @@ K-News-Stance/labeling_guidelines/
 ---
 
 ## 🧠 Method: JoA-ICL (Journalism-Guided Agentic In-Context Learning)
-
-**JoA-ICL** improves article-level stance detection by delegating stance classification of journalism-guided segments to an LM agent.  
-These segment-level predictions are then integrated by the main LLM to produce the final article-level stance.
-
+<p align="center"><img src="https://github.com/ssu-humane/K-News-Stance/blob/main/joa-icl.jpg" width="900" height="400"></p>
+As illustrated in Figure, this LLM-based method performs article-level stance prediction via in-context learning while delegating stance classification of journalism-guided segments—such as leads and quotations—to a language model(LM) agent. 
+The resulting segment-level predictions are then integrated with the primary LLM, enabling more accurate inference of an article’s overall stance toward a target issue.
 ---
 
 ## ▶ How to Run
